@@ -1,0 +1,147 @@
+#particles-js {
+  height: 100vh;
+  background-color: hsl(233deg, 65%, 29%);
+  color: yellow;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.jumbotron {
+  background-color: hsl(233deg, 65%, 29%);
+  color: yellow;
+  padding-top: 200px;
+}
+
+.row-part {
+  position: absolute;
+  height: 40vh;
+  width: 60vw;
+  background-color: rgba(0, 0, 0, 0.63);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+.row-part .col-part {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.row-part .col-part .typed .anim {
+  color: yellow;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+footer .row .col {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+#gallery {
+  height: 100vh;
+}
+
+#bg {
+  background-image: url(../img/moroccan-flower-dark.webp);
+}
+#bg h1 {
+  color: white;
+}
+
+#activities {
+  height: 100vh;
+}
+
+#sert {
+  height: 100vh;
+}
+
+#login-admin, #admin {
+  background-image: url(../img/moroccan-flower-dark.webp);
+}
+
+.row-admin {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.admin {
+  margin-top: 10%;
+  height: 50vh;
+  width: 50vw;
+}
+
+.btn-update-serti,
+.btn-update-acti,
+.btn-back,
+.btn-add-gall,
+.btn-add-cert,
+.btn-add-acti,
+.btn-admin {
+  width: 100%;
+}
+
+#update-serti,
+#update-acti,
+#add-gall,
+#add-cert,
+#add-acti {
+  height: 100vh;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#update-serti .card,
+#update-acti .card,
+#add-gall .card,
+#add-cert .card,
+#add-acti .card {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#edit-acti,
+#edit-serti,
+#add-gambar,
+#add-sertifikat {
+  background-image: url(../img/moroccan-flower-dark.webp);
+}
+
+#dashboard {
+  background-image: url(../img/moroccan-flower-dark.webp);
+  color: white;
+}
+#dashboard h2 {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
